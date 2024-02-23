@@ -1,0 +1,38 @@
+body{
+    background: radial-gradient(#e66465, #9198e5) ;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.deleteBtn{
+    display: none;
+}
+
+.showDelete:hover > .deleteBtn{
+    display: block
+}
+
+.todo-wrapper{
+    max-width: 500px;
+    margin: 0 10px;
+}
+
+hr{
+    display: block;
+    margin:3px auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .deleteBtn{
+        visibility: visible !important;
+    }
+
+    .todo-wrapper{
+        max-width: 350px;
+        margin: 0 10px;
+    }
+}
