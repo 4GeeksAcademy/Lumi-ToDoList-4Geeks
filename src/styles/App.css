@@ -8,14 +8,6 @@ main{
     justify-content: center;
 }
 
-.deleteBtn{
-    display: none;
-}
-
-.showDelete:hover > .deleteBtn{
-    display: block
-}
-
 .todo-wrapper{
     max-width: 500px;
     margin: 0 10px;
